@@ -1,0 +1,64 @@
+.container {
+  padding: 0 2rem;
+  margin: 2rem;
+}
+
+ .card {
+  border: 3px solid #FF007A ;
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 25px ;
+  color: #FF007A;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+} */
+
+.card .btn {
+  border: 3px solid #FF007A ;
+  border-radius: 25rem ;
+  padding: 5%;
+  
+  background-color: white;
+  font-weight: bold;
+}
+
+.btn {
+  border: 3px solid #FF007A ;
+  border-radius: 25rem ;
+  padding: .8%;
+  color: #FF007A;
+  float: right;
+  background-color: white;
+  font-weight: bold;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background-color: #FF007A;
+  color: white;
+}
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
